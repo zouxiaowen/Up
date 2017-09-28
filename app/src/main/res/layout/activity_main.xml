@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="wen.xiao.com.up.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <wen.xiao.com.up.FlikerProgressBar
+        android:id="@+id/round_flikerbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textSize="12sp"
+        app:loadingColor="#40c4ff"
+        app:stopColor="#ff9800"
+        app:radius="20dp"
+        android:visibility="gone"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:text="检测更新"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape"
+        android:layout_height="50dp" />
+
+</LinearLayout>
+
+</LinearLayout>

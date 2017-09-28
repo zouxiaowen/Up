@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:DoubleWaveView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wen.xiao.com.up.WActivity">
+
+    <wen.xiao.com.up.DoubleWaveView
+        android:id="@+id/waveView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        DoubleWaveView:peakValue="10dp"
+        DoubleWaveView:speedOne="2"
+        DoubleWaveView:speedTwo="4"
+        DoubleWaveView:speedThree="6"
+        DoubleWaveView:waveColor="#6DDDFD"
+        DoubleWaveView:waveHeight="20dp" />
+</LinearLayout>

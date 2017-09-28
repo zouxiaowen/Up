@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="peakValue" format="dimension"/>
+    <attr name="waveColor" format="color" />
+    <attr name="speedOne" format="integer" />
+    <attr name="speedTwo" format="integer" />
+    <attr name="speedThree" format="integer" />
+    <attr name="waveHeight" format="dimension" />
+
+    <declare-styleable name="DoubleWaveView">
+        <attr name="peakValue" />
+        <attr name="waveColor" />
+        <attr name="speedOne" />
+        <attr name="speedTwo" />
+        <attr name="speedThree" />
+        <attr name="waveHeight" />
+
+    </declare-styleable>
+    <declare-styleable name="FlikerProgressBar">
+        <attr name="textSize" format="dimension"/>
+
+        <attr name="loadingColor" format="color"/>
+
+        <attr name="stopColor" format="color"/>
+
+        <attr name="radius" format="dimension"/>
+
+        <attr name="borderWidth" format="dimension"/>
+
+    </declare-styleable>
+</resources>
